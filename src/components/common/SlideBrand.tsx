@@ -16,7 +16,7 @@ export default function SlideBrand() {
                 <div className="container">
                     <div className="tf-brand_inner">
                         <h5 className="title text-caption font-2 letter-space-0 fw-normal wg-counter wow fadeInUp">
-                            TRUSTED BY <OdometerComponent value={6000} />+ HIGHLY PRODUCTIVE COMPANY
+                            TRUSTED BY <OdometerComponent value={6000} />+ COMPANIES THAT WANT TO SCALE
                         </h5>
                         <div className=" infiniteslide_wrap">
                             <div className="infiniteSlide_brand z-1">

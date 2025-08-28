@@ -3,14 +3,15 @@ import { SectTagline } from "@/src/components/section/SectTagline";
 import { SectBottom } from "@/src/components/section/SectBottom";
 import { benefitItems } from "@data/benefit";
 import Image from "next/image";
+import MarketingIntelligenceOfficer from "../../assets/images/section/MARketing Intelligence Officer(BG remove).png";
 
 export default function BenefitSection() {
     return (
         <>
             <section className="section-benefit">
-                <SectHeader value={3} label="BENEFITS" />
+                <SectHeader value={3} label="THE SOLUTION" />
                 <span className="br-line"></span>
-                <SectTagline name="WHY QORE WORKS SMARTER." />
+                <SectTagline name="MARKETING INTELLIGENCE OFFICER" />
                 <span className="br-line"></span>
                 <MainBenefitSection />
                 <span className="br-line"></span>
@@ -30,7 +31,7 @@ export function MainBenefitSection() {
                         <div className="visual-object">
                             <div className="object_img wow bounceInScale">
                                 <div className="image">
-                                    <Image src="/assets/images/section/visual-object.webp" alt="Image" width={636} height={636} />
+                                    <Image src={MarketingIntelligenceOfficer} alt="Image" width={636} height={636} />
                                 </div>
                                 <span className="hafl-plus start-0 top-0 rotate-top_left wow bounceInScale"></span>
                                 <span className="hafl-plus end-0 top-0 rotate-top_right wow bounceInScale"></span>
@@ -38,17 +39,17 @@ export function MainBenefitSection() {
                         </div>
                         <div className="sect-title wow fadeInUp">
                             <h2 className="s-title font-3">
-                                Built for modern teams. <br />
-                                Backed by cutting-edge AI.
+                                Meet MARIO —  <br />
+                                Your AI Marketer & Cofounder.
                             </h2>
                             <p className="s-sub_title">
-                                Qore combines powerful AI models with a unified creative workspace <br className="d-none d-lg-block" />— built for
+                                MARIO does in minutes what teams take months to do: <br className="d-none d-lg-block" />— built for
                                 speed, clarity, and control.
                             </p>
                         </div>
                     </div>
                     <div className="position-relative">
-                        <div className="grid-box_icon tf-grid-layout sm-col-2 md-col-3">
+                        <div className="grid-box_icon tf-grid-layout sm-col-2 md-col-2">
                             {benefitItems.map((item, idx) => (
                                 <div key={idx} className="box-icon-text wow fadeInUp">
                                     <div className="icon">

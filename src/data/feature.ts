@@ -3,43 +3,62 @@ export interface FeatureTab {
     title: string;
     img: string;
     desc: string;
+    subPoints: { title: string; desc: string }[];
 }
 
 export const FeatureTabItems: FeatureTab[] = [
     {
-        id: "imageCreator",
-        title: "Image Creator",
+        id: "strategyInsights",
+        title: "Strategy & Insights",
         img: "image-creator.webp",
-        desc: "From visuals to code, Qore gives you a full creative suite powered by the latest multi-model AI — all in one place.",
+        desc: "Understand your audience and outpace competitors with AI-powered intelligence.",
+        subPoints: [
+            { title: "Brand Tone & Voice", desc: "Define and maintain consistency everywhere." },
+            { title: "Competitor Intelligence", desc: "Spot what’s working for others and stay ahead." },
+            { title: "Market Segmentation & Gaps", desc: "Identify untapped opportunities and audience clusters." },
+        ],
     },
     {
-        id: "imageEnhance",
-        title: "Image Enhance",
-        img: "image-enhance.webp",
-        desc: "From visuals to code, Qore gives you a full creative suite powered by the latest multi-model AI — all in one place.",
+        id: "contentSEO",
+        title: "Content & SEO",
+        img: "image-creator.webp",
+        desc: "Create, optimize, and dominate every channel with intelligent automation.",
+        subPoints: [
+            { title: "AI-Powered Content", desc: "Blogs, ads, and captions created 10x faster." },
+            { title: "SEO & Discoverability", desc: "Automated audits and AI-driven keyword strategies." },
+            { title: "Blogs & Newsletters", desc: "Build authority with long-form content that converts." },
+        ],
     },
     {
-        id: "videoCreator",
-        title: "Video Creator",
-        img: "video-creator.webp",
-        desc: "From visuals to code, Qore gives you a full creative suite powered by the latest multi-model AI — all in one place.",
+        id: "campaignsPerformance",
+        title: "Campaigns & Performance",
+        img: "image-creator.webp",
+        desc: "Plan, execute, and scale marketing campaigns without manual effort.",
+        subPoints: [
+            { title: "Performance Marketing", desc: "Optimize campaigns automatically for higher ROI." },
+            { title: "Affiliate & UGC Marketing", desc: "Manage creators and scale collaborations seamlessly." },
+            {
+                title: "Offline & Cross-Channel Marketing", desc: "Integrate digital and traditional campaigns for impact everywhere."
+            },
+        ],
     },
     {
-        id: "textCreator",
-        title: "Text Creator",
-        img: "text-creator.webp",
-        desc: "From visuals to code, Qore gives you a full creative suite powered by the latest multi-model AI — all in one place.",
+        id: "leadGeneration",
+        title: "Lead Generation & Outreach",
+        img: "image-creator.webp",
+        desc: "Turn data into customers with smarter targeting and automation.",
+        subPoints: [
+            { title: "Lead Enrichment", desc: "Verified profiles ready to convert." },
+            { title: "Email Outreach & Automation", desc: "Define and maintain consistency everywhere." },
+        ],
     },
     {
-        id: "codeComposer",
-        title: "Code Composer",
-        img: "code-composer.webp",
-        desc: "Generate or refactor code in any language. From scripts to components — AI does the heavy lifting.",
-    },
-    {
-        id: "websiteBuilder",
-        title: "Website Builder",
-        img: "website-builder.webp",
-        desc: "From visuals to code, Qore gives you a full creative suite powered by the latest multi-model AI — all in one place.",
+        id: "socialScheduling",
+        title: "Social & Scheduling",
+        img: "image-creator.webp",
+        desc: "Stay consistent, relevant, and ahead of trends across all platforms.",
+        subPoints: [
+            { title: "Social Media Calendar ", desc: "Plan, schedule, and publish effortlessly." },
+        ],
     },
 ];

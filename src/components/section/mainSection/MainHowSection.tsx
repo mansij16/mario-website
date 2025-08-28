@@ -3,6 +3,7 @@ import { useState, Fragment } from "react";
 import { stepItems } from "@data/step";
 import classNames from "classnames";
 import Image from "next/image";
+import HowItWorks from "../../../assets/images/section/gradient-ring-bg.webp";
 export default function MainHowSection() {
     const [activeTab, setActiveTab] = useState("step1");
 
@@ -10,13 +11,13 @@ export default function MainHowSection() {
         <>
             <div className="sect-main flat-animate-tab">
                 <div className="s-img_item wow bounceInScale">
-                    <Image src="/assets/images/section/gradient-ring-bg.webp" alt="Background" width={860} height={400} />
+                    <Image src={HowItWorks} alt="Background" width={860} height={400} />
                 </div>
                 <div className="container">
                     <div className="sect-title wow fadeInUp">
                         <h2 className="s-title font-3 m-0">
-                            From idea to output — <br />
-                            in just three simple steps.
+                            One AI, Every Channel.<br />
+                            From Idea to ROI in Minutes
                         </h2>
                     </div>
                     <div className="row">
@@ -34,7 +35,7 @@ export default function MainHowSection() {
                                     >
                                         <div className="image-how_to wow bounceInScale">
                                             <Image
-                                                src={`/assets/images/section/${item.image}`}
+                                                src={`/assets/images/how_it_works/${item.image}`}
                                                 alt={item.title}
                                                 loading="lazy"
                                                 width={404}

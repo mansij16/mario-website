@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 export default function MainFeatureSection() {
-    const [activeTab, setActiveTab] = useState("codeComposer");
+    const [activeTab, setActiveTab] = useState("strategyInsights");
 
     return (
         <>
@@ -14,10 +14,10 @@ export default function MainFeatureSection() {
                 </div>
                 <div className="container">
                     <div className="sect-title wow fadeInUp">
-                        <h2 className="s-title font-3">What You Can Do with Qore</h2>
+                        <h2 className="s-title font-3">Everything You Need to Market Smarter <br />In One Platform</h2>
                         <p className="s-sub_title">
-                            From visuals to code, Qore gives you a full creative suite powered by <br className="d-none d-lg-block" />
-                            the latest multi-model AI — all in one place.
+                            Your always-on AI marketer plans, creates, executes, and optimizes campaigns without pause.  <br className="d-none d-lg-block" />
+                            No silos. No delays. Just results.
                         </p>
                     </div>
                     <div className="tab-content">
@@ -32,6 +32,17 @@ export default function MainFeatureSection() {
                                             <br className="d-none d-lg-block" />— {item.desc.split(" — ")[1]}
                                         </p>
                                     </div>
+
+                                    <div className="sect-box-text-wrapper">
+                                        {
+                                            item.subPoints.map((subPoint, idx) => (
+                                                <div key={idx} className="sect-box-text">
+                                                    <span className="box-title-text">{subPoint.title}</span>
+                                                    <span className="box-desc-text">{subPoint.desc}</span>
+                                                </div>
+                                            ))
+                                        }
+                                    </div>
                                 </div>
                             </div>
                         ))}
@@ -45,9 +56,8 @@ export default function MainFeatureSection() {
                                 <li key={item.id} className={`nav-tab-item ${activeTab === item.id ? "active" : ""}`} role="presentation">
                                     <button
                                         onClick={() => setActiveTab(item.id)}
-                                        className={`btn_tab tf-btn style-transparent text-body-3 animate-btn ${
-                                            activeTab === item.id ? "active" : ""
-                                        }`}
+                                        className={`btn_tab tf-btn style-transparent text-body-3 animate-btn ${activeTab === item.id ? "active" : ""
+                                            }`}
                                         role="tab"
                                     >
                                         {item.title}

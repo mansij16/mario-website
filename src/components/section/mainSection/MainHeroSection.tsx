@@ -18,19 +18,21 @@ export function MainHeroSection() {
                 <div className="container">
                     <div className="sect-title wow fadeInUp">
                         <h1 className="s-title font-3">
-                            Create Smarter. Launch Faster. <br />
+                            Replace Your Entire Marketing Team.
+                            {/* <br />With One AI. */}
                             <div className="text-change_wrap">
                                 {assitantsAiItems.map((item, idx) => (
                                     <div key={idx} className={`text-change_rotating  ${idx === index ? "active" : ""}`}>
-                                        Built on<span className={`icon ${item.icon}`}></span>
-                                        {item.name}
+                                        With One AI.
+                                        {/* <span className={`icon ${item.icon}`}></span> */}
+                                        {/* {item.name} */}
                                     </div>
                                 ))}
                             </div>
                         </h1>
                         <p className="s-sub_title">
-                            Design, generate, and build anything with a multi-model AI engine — <br className="d-none d-sm-block" />
-                            one platform, endless possibilities.
+                            MARIO isn&apos;t a tool. It&apos;s your full fledged marketing team — <br className="d-none d-sm-block" />
+                            ideating, executing, optimizing across every channel — <br className="d-none d-sm-block" />at half the cost, ten times the speed.
                         </p>
                     </div>
                 </div>
@@ -65,7 +67,7 @@ export const AskForm: React.FC = () => {
     return (
         <form className="form-ask wow fadeInUp">
             <div className="form-content">
-                <input className="style-2" type="text" placeholder="Ask a follow up..." />
+                <input className="style-2" type="text" placeholder="Market with Mario (Enter your brand URL)..." />
 
                 <fieldset className="field-bottom">
                     <div className="field_left">
