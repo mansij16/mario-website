@@ -10,7 +10,7 @@ export default function FaqSection() {
             <section className="section-faq" id="FAQs">
                 <SectHeader value={7} label={"FAQS"} />
                 <span className="br-line"></span>
-                <SectTagline name={"ANSWERS TO YOUR COMMON QUESTIONS."} />
+                <SectTagline name={"YOUR GUIDE TO WHAT'S NEXT"} />
                 <span className="br-line"></span>
                 <MainFaqSection />
                 <span className="br-line"></span>

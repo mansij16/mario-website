@@ -4,16 +4,16 @@ export interface NavItem {
 }
 export const navItems: NavItem[] = [
     {
+        name: "The Solution",
+        link: "theSolution",
+    },
+    {
         name: "Features",
         link: "features",
     },
     {
-        name: "How to use",
-        link: "howToUse",
-    },
-    {
-        name: "Pricing",
-        link: "pricing",
+        name: "How it works",
+        link: "howItWorks",
     },
     {
         name: "FAQs",

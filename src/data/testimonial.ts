@@ -5,41 +5,43 @@ interface testimonialItem {
     text: string;
 }
 
+// <span class="text-main-2">MarioAI</span>
+
 export const testimonialItems: testimonialItem[] = [
     {
-        name: "Lucas Bennett",
-        username: "@lucasbennett",
+        name: "Ayush Rathi",
+        username: "Founder, Orange O Tec",
         avatar: "avt-1.webp",
-        text: '<span class="text-main-2">@qore</span> helps me organize creative tasks way faster. The image prompt support is smooth and the AI responses feel human.',
+        text: 'Before <span class="text-main-2">MARIO</span>, we were drowning in scattered data and guesswork. Now, our marketing strategy is sharper than ever. It feels like having a CMO, analyst, and creative team rolled into one.',
     },
     {
-        name: "Ethan Moore",
-        username: "@ethanmoore",
+        name: "Prince Rathi",
+        username: "CEO, Keshvi Apparels",
         avatar: "avt-2.webp",
-        text: 'Started with the free plan on <span class="text-main-2">@qore</span> and didn’t expect much. But the speed, accuracy, and clean UI convinced me to upgrade in just a few days.',
+        text: 'Campaigns that used to take us three months are now live in three days. <span class="text-main-2">MARIO</span> connects the dots we didn&apos;t even know existed and turns them into results.',
     },
     {
-        name: "Lucas Bennett",
-        username: "@lucasbennett",
+        name: "Piyush Sarawagi",
+        username: "Founder, Agility Advisors",
         avatar: "avt-3.webp",
-        text: '<span class="text-main-2">@qore</span> helps me organize creative tasks way faster. The image prompt support is smooth and the AI responses feel human.',
+        text: 'We didn&apos;t need a bigger team; we needed a smarter one. <span class="text-main-2">MARIO</span> became that team. It plans, executes, and optimizes without skipping a beat.',
     },
     {
-        name: "Olivia Tran",
-        username: "@oliviatran",
+        name: "Jay Vansjaliya",
+        username: "CEO, Siyara Beauty",
         avatar: "avt-4.webp",
-        text: 'As a marketer, I rely on <span class="text-main-2">@qore</span> daily. It cuts through the noise and delivers clear, brand-friendly outputs every time.',
+        text: 'At 2 a.m., <span class="text-main-2">MARIO</span> was A/B testing ads while I was asleep. By morning, we had insights and a new strategy ready. No agency ever worked this fast.',
     },
     {
-        name: "Elena Roque",
-        username: "Elena Roque",
+        name: "Deep Jethloja",
+        username: "CTO, Gridkey Technologies",
         avatar: "avt-5.webp",
-        text: 'I use <span class="text-main-2">@qore</span> to brainstorm brand ideas and design prompts. Even the Free plan feels generous and super helpful for quick drafts.',
+        text: 'What stood out was how <span class="text-main-2">MARIO</span> blends hard data with strategic instincts. It doesn&apos;t just automate; it thinks, learns, and delivers exactly what we need.',
     },
     {
-        name: "Lucas Bennett",
-        username: "@lucasbennett",
+        name: "Manasvi Makhania",
+        username: "Partner, The Subtext",
         avatar: "avt-6.webp",
-        text: '<span class="text-main-2">@qore</span> helps me organize creative tasks way faster. The image prompt support is smooth and the AI responses feel human.',
+        text: 'Our ad spend dropped 23%, leads doubled, and customer acquisition costs fell off a cliff. <span class="text-main-2">MARIO</span> doesn&apos;t just track ROI; it engineers it.',
     },
 ];

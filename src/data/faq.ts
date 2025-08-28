@@ -5,23 +5,27 @@ interface faqItem {
 
 export const faqItems: faqItem[] = [
     {
-        title: "What can I use Qore for?",
-        label: "You can generate taglines, short descriptions, ideas for visuals, social posts, and more in seconds.",
+        title: "What makes this platform different?",
+        label: "It is not just another tool. It acts like your AI-powered marketer, planning, creating, optimizing, and scaling campaigns around the clock.",
     },
     {
-        title: "Is Qore free to use?",
-        label: "Qore offers a free tier with limited generations. Paid plans unlock more features and outputs.",
+        title: "Do I need any technical expertise?",
+        label: "Not at all. You focus on strategy and ideas while the platform takes care of execution seamlessly.",
     },
     {
-        title: "Can I use Qore for commercial projects?",
-        label: "Yes — all generated content can be used for both personal and commercial purposes.",
+        title: "Can I trust the data and insights?",
+        label: "Yes. Every insight is powered by real-time analysis and AI-backed intelligence built for accuracy and growth.",
     },
     {
-        title: "How accurate are the outputs?",
-        label: "Results are context-aware and high quality, but we recommend reviewing and refining for best use.",
+        title: "What if I need to customize outputs?",
+        label: "You stay in control. Regenerate, refine, and tailor everything until it perfectly fits your goals.",
     },
     {
-        title: "What if I don’t like the result?",
-        label: "You can regenerate as many times as needed, or edit outputs directly to suit your needs.",
+        title: "How can I try it before committing?",
+        label: "Start with a free marketing audit. Discover insights about your current strategy and see how we can help you grow.",
+    },
+    {
+        title: "How fast can I see results?",
+        label: "Most users start noticing improved performance within weeks as the platform begins optimizing campaigns instantly.",
     },
 ];

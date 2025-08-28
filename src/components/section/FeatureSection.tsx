@@ -7,7 +7,7 @@ export default function FeatureSection() {
     return (
         <>
             <section className="section-feature" id="features">
-                <SectHeader value={2} label={"MAIN FEATURES"} />
+                <SectHeader value={2} label={"MARIO FEATURES"} />
                 <span className="br-line"></span>
                 <SectTagline name={"ONE BRAIN. INFINITE CAMPAIGNS."} />
                 <span className="br-line"></span>

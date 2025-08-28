@@ -19,7 +19,7 @@ export default function Home() {
                 <HackerTextEffect />
                 <GoTopButton />
                 <span className="line_page"></span>
-                {/* <div className="overlay_body"></div> */}
+                <div className="overlay_body"></div>
                 <div className="texture_page">
                     <div className="bg-texture"></div>
                     <div className="temp"></div>

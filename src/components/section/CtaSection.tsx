@@ -32,12 +32,13 @@ export function MainCtaSection() {
                 <div className="container">
                     <div className="sect-title wow fadeInUp">
                         <h2 className="s-title font-3">
-                            Ready to Power Up <br />
-                            Your Creativity?
+                            Ready to launch  <br />
+                            in minutes?
                         </h2>
                         <p className="s-sub_title">
-                            Join thousands of creators using Qore to streamline <br className="d-none d-lg-block" />
-                            their ideas and accelerate content creation.
+                            Because scaling isn&apos;t just about speed,
+                            <br className="d-none d-lg-block" />
+                            it&apos;s about direction.
                         </p>
                     </div>
                     <FormGet />

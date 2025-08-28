@@ -8,7 +8,7 @@ import MarketingIntelligenceOfficer from "../../assets/images/section/MARketing 
 export default function BenefitSection() {
     return (
         <>
-            <section className="section-benefit">
+            <section className="section-benefit" id="theSolution">
                 <SectHeader value={3} label="THE SOLUTION" />
                 <span className="br-line"></span>
                 <SectTagline name="MARKETING INTELLIGENCE OFFICER" />

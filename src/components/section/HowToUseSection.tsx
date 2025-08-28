@@ -6,7 +6,7 @@ import MainHowSection from "./mainSection/MainHowSection";
 export default function HowToUseSection() {
     return (
         <>
-            <section className="section-how-to" id="howToUse">
+            <section className="section-how-to" id="howItWorks">
                 <SectHeader value={4} label="HOW IT WORKS" />
                 <span className="br-line"></span>
                 <SectTagline name={"HOW MARIO SCALES"} />
