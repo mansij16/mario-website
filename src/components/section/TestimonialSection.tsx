@@ -52,9 +52,9 @@ export function MainTestimonialSection() {
                                                         <Image src={`/assets/images/avatar/${item.avatar}`} alt="Avatar" width={44} height={44} />
                                                     </div>
                                                     <div className="author_info">
-                                                        <Link href="/" className="link name">
+                                                        <span className="name">
                                                             {item.name}
-                                                        </Link>
+                                                        </span>
                                                         <p className="text-body-3">{item.username}</p>
                                                     </div>
                                                 </div>
@@ -74,9 +74,9 @@ export function MainTestimonialSection() {
                                                         <Image width={44} height={44} src={`/assets/images/avatar/${item.avatar}`} alt="Avatar" />
                                                     </div>
                                                     <div className="author_info">
-                                                        <Link href="/" className="link name">
+                                                        <span className="name">
                                                             {item.name}
-                                                        </Link>
+                                                        </span>
                                                         <p className="text-body-3">{item.username}</p>
                                                     </div>
                                                 </div>

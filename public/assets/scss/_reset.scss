@@ -686,7 +686,7 @@ a {
 .sticky-top {
     position: sticky !important;
     z-index: 50;
-    top: 15px;
+    top: 120px;
     @include transition3;
 }
 

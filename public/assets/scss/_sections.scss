@@ -773,7 +773,7 @@
     }
 
     .s-img_item {
-        top: 0;
+        top: 30px;
         left: 0;
         right: 0;
         display: flex;
@@ -901,15 +901,15 @@
     }
 
     &::after {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background-image: url("../images/section/visual-object-3.webp");
-        background-position: top right;
-        background-repeat: no-repeat;
-        z-index: 0;
-        @include transition3;
-        @include hidden;
+        // content: "";
+        // position: absolute;
+        // inset: 0;
+        // background-image: url("../images/section/visual-object-3.webp");
+        // background-position: top right;
+        // background-repeat: no-repeat;
+        // z-index: 0;
+        // @include transition3;
+        // @include hidden;
     }
 
     .content {

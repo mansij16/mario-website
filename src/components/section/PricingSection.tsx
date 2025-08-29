@@ -35,7 +35,7 @@ export function MainPricingSection() {
                     </div>
                     <div className="grid-pricing">
                         {plans.map((plan) => (
-                            <div key={plan.id} className={classNames("wg-plan wow fadeInUp", plan.typeClass)}>
+                            <div key={plan.id} className={classNames("wow fadeInUp", plan.typeClass)}>
                                 <div className="content">
                                     <div className="plan-header">
                                         <p className="plan_type text-body-1">{plan.name}</p>

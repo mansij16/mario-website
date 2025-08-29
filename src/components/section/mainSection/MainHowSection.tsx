@@ -41,10 +41,10 @@ export default function MainHowSection() {
                                                 width={404}
                                                 height={404}
                                             />
-                                            <span className="hafl-plus start-0 top-0 rotate-top_left" />
-                                            <span className="hafl-plus end-0 top-0 rotate-top_right" />
-                                            <span className="hafl-plus start-0 bottom-0 item_bot rotate-bot_left" />
-                                            <span className="hafl-plus end-0 bottom-0 item_bot rotate-bot_right" />
+                                            <span className="hafl-plus start-10 top-10 rotate-top_left" />
+                                            <span className="hafl-plus end-10 top-10 rotate-top_right" />
+                                            <span className="hafl-plus start-10 bottom-10 item_bot rotate-bot_left" />
+                                            <span className="hafl-plus end-10 bottom-10 item_bot rotate-bot_right" />
                                         </div>
                                     </div>
                                 ))}

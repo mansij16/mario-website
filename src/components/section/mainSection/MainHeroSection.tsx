@@ -19,16 +19,16 @@ export function MainHeroSection() {
                     <div className="sect-title wow fadeInUp">
                         <h1 className="s-title font-3">
                             Replace Your Entire Marketing Team.
-                            {/* <br />With One AI. */}
-                            <div className="text-change_wrap">
+                            <br />With One AI.
+                            {/* <div className="text-change_wrap">
                                 {assitantsAiItems.map((item, idx) => (
                                     <div key={idx} className={`text-change_rotating  ${idx === index ? "active" : ""}`}>
                                         With One AI.
-                                        {/* <span className={`icon ${item.icon}`}></span> */}
-                                        {/* {item.name} */}
+                                        <span className={`icon ${item.icon}`}></span>
+                                        {item.name}
                                     </div>
                                 ))}
-                            </div>
+                            </div> */}
                         </h1>
                         <p className="s-sub_title">
                             MARIO isn&apos;t a tool. It&apos;s your full fledged marketing team — <br className="d-none d-sm-block" />
