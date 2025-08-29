@@ -1148,7 +1148,7 @@ header {
 .btn_group {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 20px;
 }
 
 .main-nav_menu {
@@ -1180,9 +1180,9 @@ header {
 
 .mb-item-link {
   font-weight: 500;
-  font-size: 36px;
-  line-height: 40px;
-  letter-spacing: -0.18px;
+  font-size: 26px;
+  line-height: 28px;
+  letter-spacing: -0.12px;
 }
 .mb-item-link:hover,
 .mb-item-link.active {
@@ -2207,7 +2207,7 @@ input[type="number"]::-webkit-outer-spin-button {
   border: none;
   color: var(--white);
   z-index: 10;
-  font-size: 20px;
+  font-size: 16px;
 }
 .offcanvas .icon-close-popup:hover {
   color: var(--primary);
@@ -2374,7 +2374,7 @@ input[type="number"]::-webkit-outer-spin-button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 28px 32px;
+  padding: 20px;
   position: relative;
 }
 
@@ -4192,7 +4192,7 @@ input[type="number"]::-webkit-outer-spin-button {
 .wg-plan .plan_price {
   margin-bottom: 12px;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   gap: 8px;
 }
 .wg-plan .price-amount {

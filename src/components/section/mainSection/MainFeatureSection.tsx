@@ -20,6 +20,26 @@ export default function MainFeatureSection() {
                             No silos. No delays. Just results.
                         </p>
                     </div>
+                    <div className="container mb-5">
+                        <div className="position-relative">
+                            <ul className="tab-can_do position-relative mx-1" role="tablist">
+                                {FeatureTabItems.map((item) => (
+                                    <li key={item.id} className={`nav-tab-item ${activeTab === item.id ? "active" : ""}`} role="presentation">
+                                        <button
+                                            onClick={() => setActiveTab(item.id)}
+                                            className={`btn_tab tf-btn style-transparent text-body-3 animate-btn ${activeTab === item.id ? "active" : ""
+                                                }`}
+                                            role="tab"
+                                        >
+                                            {item.title}
+                                        </button>
+                                    </li>
+                                ))}
+                            </ul>
+                            <span className="hafl-plus pst-left_bot item_bot wow bounceInScale"></span>
+                            <span className="hafl-plus pst-right_bot item_bot wow bounceInScale"></span>
+                        </div>
+                    </div>
                     <div className="tab-content">
                         {FeatureTabItems.map((item) => (
                             <div key={item.id} id={item.id} className={`tab-pane ${activeTab === item.id ? "active show" : ""}`} role="tabpanel">
@@ -49,7 +69,7 @@ export default function MainFeatureSection() {
                     </div>
                 </div>
                 <span className="br-line"></span>
-                <div className="container">
+                {/* <div className="container">
                     <div className="position-relative">
                         <ul className="tab-can_do position-relative mx-1" role="tablist">
                             {FeatureTabItems.map((item) => (
@@ -68,7 +88,7 @@ export default function MainFeatureSection() {
                         <span className="hafl-plus pst-left_bot item_bot wow bounceInScale"></span>
                         <span className="hafl-plus pst-right_bot item_bot wow bounceInScale"></span>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     );

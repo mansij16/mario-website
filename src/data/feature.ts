@@ -10,7 +10,7 @@ export const FeatureTabItems: FeatureTab[] = [
     {
         id: "strategyInsights",
         title: "Strategy & Insights",
-        img: "image-creator.webp",
+        img: "Strategy & Insights.webp",
         desc: "Understand your audience and outpace competitors with AI-powered intelligence.",
         subPoints: [
             { title: "Brand Tone & Voice", desc: "Define and maintain consistency everywhere." },
@@ -21,7 +21,7 @@ export const FeatureTabItems: FeatureTab[] = [
     {
         id: "contentSEO",
         title: "Content & SEO",
-        img: "image-creator.webp",
+        img: "Content & SEO.webp",
         desc: "Create, optimize, and dominate every channel with intelligent automation.",
         subPoints: [
             { title: "AI-Powered Content", desc: "Blogs, ads, and captions created 10x faster." },
@@ -32,7 +32,7 @@ export const FeatureTabItems: FeatureTab[] = [
     {
         id: "campaignsPerformance",
         title: "Campaigns & Performance",
-        img: "image-creator.webp",
+        img: "Campaigns & Performance.webp",
         desc: "Plan, execute, and scale marketing campaigns without manual effort.",
         subPoints: [
             { title: "Performance Marketing", desc: "Optimize campaigns automatically for higher ROI." },
@@ -45,7 +45,7 @@ export const FeatureTabItems: FeatureTab[] = [
     {
         id: "leadGeneration",
         title: "Lead Generation & Outreach",
-        img: "image-creator.webp",
+        img: "Lead Generation & Outreach.webp",
         desc: "Turn data into customers with smarter targeting and automation.",
         subPoints: [
             { title: "Lead Enrichment", desc: "Verified profiles ready to convert." },
@@ -55,7 +55,7 @@ export const FeatureTabItems: FeatureTab[] = [
     {
         id: "socialScheduling",
         title: "Social & Scheduling",
-        img: "image-creator.webp",
+        img: "Social & Scheduling.webp",
         desc: "Stay consistent, relevant, and ahead of trends across all platforms.",
         subPoints: [
             { title: "Social Media Calendar ", desc: "Plan, schedule, and publish effortlessly." },

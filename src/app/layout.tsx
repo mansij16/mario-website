@@ -38,7 +38,6 @@ export const metadata: Metadata = {
     description: "Mario AI ",
     keywords: ["Mario AI"],
     robots: "index, follow",
-    authors: [{ name: "Themesflat", url: "https://themesflat.co" }],
     icons: {
         icon: "/assets/images/logo/favicon.svg",
         shortcut: "/assets/images/logo/favicon.svg",

@@ -3,7 +3,6 @@ import { SectTagline } from "@/src/components/section/SectTagline";
 import { SectBottom } from "@/src/components/section/SectBottom";
 import { benefitItems } from "@data/benefit";
 import Image from "next/image";
-import MarketingIntelligenceOfficer from "../../assets/images/section/MARketing Intelligence Officer(BG remove).png";
 
 export default function BenefitSection() {
     return (
@@ -31,7 +30,7 @@ export function MainBenefitSection() {
                         <div className="visual-object">
                             <div className="object_img wow bounceInScale">
                                 <div className="image">
-                                    <Image src={MarketingIntelligenceOfficer} alt="Image" width={636} height={636} />
+                                    <Image src="/assets/images/section/benefit-img.jpg" alt="Image" width={636} height={636} />
                                 </div>
                                 <span className="hafl-plus start-0 top-0 rotate-top_left wow bounceInScale"></span>
                                 <span className="hafl-plus end-0 top-0 rotate-top_right wow bounceInScale"></span>
