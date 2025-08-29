@@ -16,8 +16,8 @@ export default function MainHowSection() {
                 <div className="container">
                     <div className="sect-title wow fadeInUp">
                         <h2 className="s-title font-3 m-0">
-                            One AI, Every Channel.<br />
-                            From Idea to ROI in Minutes
+                            One AI. Every Channel.<br />
+                            From Idea to ROI in Minutes.
                         </h2>
                     </div>
                     <div className="row">
