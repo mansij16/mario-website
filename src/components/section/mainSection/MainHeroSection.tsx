@@ -1,16 +1,16 @@
 "use client";
-import { assitantsAiItems } from "@/src/data/assitantsAi";
-import { useEffect, useState } from "react";
+// import { assitantsAiItems } from "@/src/data/assitantsAi";
+// import { useEffect, useState } from "react";
 
 export function MainHeroSection() {
-    const [index, setIndex] = useState(0);
+    // const [index, setIndex] = useState(0);
 
-    useEffect(() => {
-        const intervalId = setInterval(() => {
-            setIndex((prev) => (prev + 1) % assitantsAiItems.length);
-        }, 2500);
-        return () => clearInterval(intervalId);
-    }, []);
+    // useEffect(() => {
+    //     const intervalId = setInterval(() => {
+    //         setIndex((prev) => (prev + 1) % assitantsAiItems.length);
+    //     }, 2500);
+    //     return () => clearInterval(intervalId);
+    // }, []);
 
     return (
         <>

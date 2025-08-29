@@ -30,18 +30,20 @@ const GoTopButton = () => {
         ticking.current = false;
     };
 
-    const handleScroll = () => {
-        if (!ticking.current) {
-            requestAnimationFrame(updateScroll);
-            ticking.current = true;
-        }
-    };
+
 
     const scrollToTop = () => {
         window.scrollTo({ top: 0, behavior: "smooth" });
     };
 
     useEffect(() => {
+        const handleScroll = () => {
+            if (!ticking.current) {
+                requestAnimationFrame(updateScroll);
+                ticking.current = true;
+            }
+        };
+
         window.addEventListener("scroll", handleScroll, { passive: true });
         updateScroll();
 
