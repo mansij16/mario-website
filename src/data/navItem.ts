@@ -8,12 +8,12 @@ export const navItems: NavItem[] = [
         link: "theSolution",
     },
     {
-        name: "Features",
-        link: "features",
-    },
-    {
         name: "How it works",
         link: "howItWorks",
+    },
+    {
+        name: "Features",
+        link: "features",
     },
     {
         name: "FAQs",
