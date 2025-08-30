@@ -3496,7 +3496,7 @@ input[type="number"]::-webkit-outer-spin-button {
   margin-left: auto;
   margin-right: auto;
   z-index: -5;
-  background-image: url("/../assets/images/section/star-sky.webp");
+  background-image: url("/assets/images/section/star-sky.webp");
   background-repeat: repeat-y;
   background-position: center;
   animation: moveUp 60s linear infinite;
@@ -3521,7 +3521,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 .texture_page .bg-texture {
   flex: 1;
-  background-image: url("/../assets/images/section/texture.webp");
+  background-image: url("/assets/images/section/texture.webp");
   background-repeat: repeat-y;
   background-size: contain;
   opacity: 0.1;

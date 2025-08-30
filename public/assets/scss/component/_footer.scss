@@ -10,6 +10,15 @@
   pointer-events: none;
 }
 
+.footer-bg-wrapper {
+  // position: relative;
+  background-image: url("../../images/section/footer-bg.jpg");
+  background-size: auto;
+  background-position: 20px;
+  background-repeat: no-repeat;
+  // padding: 48px;
+}
+
 .footer-inner-wrap {
   position: relative;
   padding-left: 48px;
