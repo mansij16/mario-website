@@ -9,7 +9,7 @@ export default function CtaSection() {
     return (
         <>
             <section className="section-cta">
-                <SectHeader value={8} label="CTA" />
+                <SectHeader value={8} label="START NOW" />
                 <span className="br-line"></span>
                 <SectTagline name="GET STARTED TODAY." />
                 <span className="br-line"></span>

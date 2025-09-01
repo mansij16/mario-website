@@ -8,7 +8,7 @@ export default function HeroSection() {
     return (
         <>
             <section className="section-hero">
-                <SectHeader value={1} label={"HERO"} />
+                <SectHeader value={1} label={"OVERVIEW"} />
                 <span className="br-line"></span>
                 <SectTagline name={"The Future of Marketing"} />
                 <span className="br-line"></span>

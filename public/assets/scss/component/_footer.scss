@@ -13,10 +13,16 @@
 .footer-bg-wrapper {
   // position: relative;
   background-image: url("../../images/section/footer-bg.jpg");
-  background-size: auto;
-  background-position: 20px;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   // padding: 48px;
+}
+
+.footer-backdrop-wrapper {
+  background-color: rgb(38 38 38 / 36%);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .footer-inner-wrap {
@@ -99,6 +105,8 @@
     a {
       font-size: 14px;
       line-height: 20px;
+      font-weight: 400;
+      font-family: 'Mono', 'Mono Fallback' !important;
     }
   }
 }

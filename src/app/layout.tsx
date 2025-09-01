@@ -39,9 +39,9 @@ export const metadata: Metadata = {
     keywords: ["Mario AI"],
     robots: "index, follow",
     icons: {
-        icon: "/assets/images/logo/favicon.svg",
-        shortcut: "/assets/images/logo/favicon.svg",
-        apple: "/assets/images/logo/favicon.svg",
+        icon: "/assets/images/Mario/favicon_dark.svg",
+        shortcut: "/assets/images/Mario/favicon_dark.svg",
+        apple: "/assets/images/Mario/favicon_dark.svg",
     },
 };
 export default function RootLayout({
